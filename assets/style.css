@@ -4,6 +4,10 @@
     --brand-gradient: linear-gradient(to right, #A855F7, #6366F1, #06B6D4);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -21,7 +25,7 @@ button {
     margin: 0 auto;
 }
 
-.header__wraper {
+.header__wrapper {
     display: flex;
     justify-content: flex-end;
     padding: 15px 0;
