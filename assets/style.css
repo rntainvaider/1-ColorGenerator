@@ -1,0 +1,53 @@
+:root {
+    /* COLORS */
+    --border: #DCE0F5;
+    --brand-gradient: linear-gradient(to right, #A855F7, #6366F1, #06B6D4);
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1225px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.header__wraper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+
+.switcher {
+    display: flex;
+    gap: 15px;
+}
+
+.switcher__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--brand-gradient);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    width: 42px;
+    height: 30px;
+
+    font-size: 12px;
+    color: white;
+}
+
+.switcher__icon {
+    width: 16px;
+    height: 16px;
+}
